@@ -51,6 +51,7 @@
         background-size: cover;
         background-blend-mode:screen;
         height: 23rem;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &--1{
