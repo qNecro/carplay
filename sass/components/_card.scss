@@ -47,8 +47,9 @@
 
     //Front side styling
     &__picture{
+        background-size: cover;
         &--1{
-            background-image: url(../img/nat-5.img);
+            background-image: url(../img/pic-5.jpg);
         }
     }
 }
