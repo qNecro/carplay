@@ -176,9 +176,12 @@ body {
     .card__side--front {
       background-color: orangered; }
     .card__side--back {
-      background-color: #green; }
-  .card:hover .card__side {
+      background-color: green;
+      transform: rotateY(180deg); }
+  .card:hover .card__side--front {
     transform: rotateY(180deg); }
+  .card:hover .card__side--back {
+    transform: rotateY(0deg); }
 
 .composition {
   position: relative; }
