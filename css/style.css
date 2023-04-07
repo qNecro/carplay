@@ -166,13 +166,18 @@ body {
 
 .card {
   perspective: 150rem;
-  -moz-perspective: 150rem; }
+  -moz-perspective: 150rem;
+  position: relative; }
   .card__side {
     background-color: orangered;
     color: #fff;
     font-size: 5rem;
     height: 50rem;
-    transition: all .8s; }
+    transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
     .card__side--front {
       background-color: orangered; }
     .card__side--back {
