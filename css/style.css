@@ -182,7 +182,7 @@ body {
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
-      background-color: green;
+      background-color: linear-gradient(to right bottom, rgba(99, 127, 242, 0.4), rgba(4, 37, 168, 0.4));
       transform: rotateY(180deg); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }

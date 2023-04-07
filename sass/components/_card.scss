@@ -21,7 +21,11 @@
             background-color: $color-white;
         }
         &--back{
-            background-color: green;
+            background-color: linear-gradient(
+                to right bottom,
+                rgba($color-secondary-light, 0.4),
+                rgba($color-secondary-dark, 0.4)
+              );
             transform: rotateY(180deg);
         }
     }
