@@ -4,6 +4,8 @@
 
     &__side{
         background-color: orangered;
+        color: #fff;
+        font-size: 5rem;
         height: 50rem;
         transition: all .8s;
     }
@@ -11,6 +13,6 @@
     
 
     &:hover &__side{
-        transform: rotateY(190deg);
+        transform: rotateY(180deg);
     }
 }

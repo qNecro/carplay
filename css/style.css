@@ -165,11 +165,16 @@ body {
   transform: translateY(0); }
 
 .card {
-  background-color: orangered;
-  height: 50rem;
-  transition: all .8s; }
-  .card:hover {
-    transform: rotateY(190deg); }
+  perspective: 150rem;
+  -moz-perspective: 150rem; }
+  .card__side {
+    background-color: orangered;
+    color: #fff;
+    font-size: 5rem;
+    height: 50rem;
+    transition: all .8s; }
+  .card:hover .card__side {
+    transform: rotateY(180deg); }
 
 .composition {
   position: relative; }
