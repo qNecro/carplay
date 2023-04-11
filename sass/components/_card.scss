@@ -106,4 +106,19 @@
         left:50%;
         transform: translate(-50%,-50%);
     }
+
+    &__price-box{
+        text-align: center;
+        color: $color-white;
+        margin-bottom:8rem;
+
+        &__price-box-only{
+            font-size: 1.4rem;
+        }
+
+        &__price-box-value{
+            font-size: 6rem;
+            font-weight: 100;
+        }
+    }
 }
