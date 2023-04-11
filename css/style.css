@@ -198,9 +198,9 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #637ff2, #0425a8), url(../img/pic-5.avif); }
-    .card__picture--1 {
+    .card__picture--2 {
       background-image: linear-gradient(to right bottom, #637ff2, #0425a8), url(../img/pic-6.avif); }
-    .card__picture--1 {
+    .card__picture--3 {
       background-image: linear-gradient(to right bottom, #637ff2, #0425a8), url(../img/pic-7.avif); }
   .card__heading {
     font-size: 2.8rem;
