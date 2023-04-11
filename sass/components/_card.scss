@@ -98,6 +98,12 @@
         &--1{
             background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85),rgba($color-secondary-dark, .85));
         }
+        &--2{
+            background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, .85),rgba($color-tertiary-dark, .85));
+        }
+        &--3{
+            background-image: linear-gradient(to right bottom, rgba($color-quaternary-light, .85),rgba($color-quaternary-dark, .85));
+        }
     }
 
     &__details{

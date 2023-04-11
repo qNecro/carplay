@@ -222,6 +222,10 @@ body {
     box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(237, 157, 123, 0.85), rgba(173, 100, 69, 0.85)); }
+    .card__heading-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(181, 90, 116, 0.85), rgba(127, 39, 64, 0.85)); }
+    .card__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(128, 76, 133, 0.85), rgba(62, 26, 65, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
