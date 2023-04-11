@@ -186,10 +186,10 @@ body {
       transform: rotateY(180deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ed9d7b, #ad6445); }
-      .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ed9d7b, #ad6445); }
-      .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ed9d7b, #ad6445); }
+      .card__side--back-2 {
+        background-image: linear-gradient(to right bottom, #b55a74, #7f2740); }
+      .card__side--back-3 {
+        background-image: linear-gradient(to right bottom, #804c85, #3e1a41); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -203,9 +203,9 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ed9d7b, #ad6445), url(../img/pic-5.avif); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #ed9d7b, #ad6445), url(../img/pic-6.avif); }
+      background-image: linear-gradient(to right bottom, #b55a74, #7f2740), url(../img/pic-6.avif); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #ed9d7b, #ad6445), url(../img/pic-7.avif); }
+      background-image: linear-gradient(to right bottom, #804c85, #3e1a41), url(../img/pic-7.avif); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
