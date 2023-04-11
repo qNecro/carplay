@@ -29,6 +29,13 @@
         background: $color-white;
       }
     }
+    &--yellow {
+      background: $color-primary-dark;
+      color: $color-white;
+      &::after {
+        background: $color-white;
+      }
+    }
     &::after {
       content: "";
       display: inline-block;
