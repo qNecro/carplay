@@ -267,6 +267,9 @@ body {
   .card__price-box-value {
     font-size: 6rem;
     font-weight: 100; }
+  .card__price-box-fee {
+    font-size: 1rem;
+    font-style: italic; }
 
 .composition {
   position: relative; }

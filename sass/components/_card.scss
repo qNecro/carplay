@@ -140,13 +140,17 @@
         color: $color-white;
         margin-bottom:8rem;
     }
-        &__price-box-only{
-            font-size: 1.4rem;
-            text-transform: uppercase;
-        }
+    &__price-box-only{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
 
-        &__price-box-value{
-            font-size: 6rem;
-            font-weight: 100;
-        }
+    &__price-box-value{
+        font-size: 6rem;
+        font-weight: 100;
+    }
+    &__price-box-fee{
+        font-size: 1rem;
+        font-style: italic;
+    }
 }
