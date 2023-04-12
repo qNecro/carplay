@@ -8,6 +8,10 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
+    & > * {
+        transform: skewX(12deg);
+    }
+
     &__shape{
         width: 15rem;
         height: 15rem;
@@ -21,5 +25,9 @@
 
     &__img{
         height: 100%;
+    }
+
+    &__text{
+
     }
 }
