@@ -6,6 +6,7 @@
     border-radius: 3rem;
     padding: 6rem;
     font-size: $default-font-size;
+    transform: skewX(-12deg);
 
     &__shape{
         width: 15rem;
