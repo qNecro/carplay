@@ -335,6 +335,8 @@ body {
     height: 100%; }
   .story__text {
     transform: skewX(12deg); }
+  .story__caption {
+    position: absolute; }
 
 .row {
   max-width: 114rem;

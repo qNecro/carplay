@@ -25,4 +25,7 @@
     &__text{
         transform: skewX(12deg);
     }
+    &__caption{
+        position: absolute;
+    }
 }
