@@ -21,6 +21,8 @@
 
     &__img{
         height: 100%;
+        transform: translateX(-4rem);
+        backface-visibility: hidden;
     }
 
     &__text{
@@ -43,5 +45,8 @@
     &:hover &__caption{
         opacity: 1;
         transform: translate(-50%, -50%);
+    }
+    &:hover &__img{
+
     }
 }
