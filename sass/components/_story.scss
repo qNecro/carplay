@@ -36,10 +36,11 @@
         text-transform: uppercase;
         text-align: center;
         opacity: 0;
+        transition: all .5s;
     }
 
     &:hover &__caption{
         opacity: 1;
-        transform: translateY(-50%);
+        transform: translate(-50%, -50%);
     }
 }

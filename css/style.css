@@ -345,10 +345,11 @@ body {
     font-size: 1.7rem;
     text-transform: uppercase;
     text-align: center;
-    opacity: 0; }
+    opacity: 0;
+    transition: all .5s; }
   .story:hover .story__caption {
     opacity: 1;
-    transform: translateY(-50%); }
+    transform: translate(-50%, -50%); }
 
 .row {
   max-width: 114rem;
