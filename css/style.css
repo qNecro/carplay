@@ -346,7 +346,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     opacity: 0;
-    transition: all .5s; }
+    transition: all .5s;
+    backface-visibility: hidden; }
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
