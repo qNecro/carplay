@@ -357,8 +357,7 @@ body {
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
     transform: translateX(-4rem) scale(1);
-    filter: blur(3px) brightness(80%);
-    backface-visibility: hidden; }
+    filter: blur(3px) brightness(80%); }
 
 .row {
   max-width: 114rem;

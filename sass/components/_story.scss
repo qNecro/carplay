@@ -51,6 +51,5 @@
     &:hover &__img{
         transform: translateX(-4rem) scale(1);
         filter: blur(3px) brightness(80%);
-        backface-visibility: hidden;
     }
 }
