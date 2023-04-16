@@ -379,7 +379,7 @@ body {
 .form__radio-button {
   height: 2rem;
   width: 2rem;
-  border: 5px solid #f9d369;
+  border: 3px solid #f9d369;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -388,9 +388,14 @@ body {
   .form__radio-button::after {
     content: '';
     display: block;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%; }
+    height: .7rem;
+    width: .7rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9d369; }
 
 .story {
   width: 75%;
