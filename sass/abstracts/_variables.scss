@@ -9,6 +9,7 @@
 // $color-secondary-light: rgb(99, 127, 242);
 // $color-secondary-dark: rgb(4, 37, 168);
 
+//Color templates
 $color-primary :rgb(249, 211, 105);
 $color-primary-light: rgb(241, 214, 137);
 $color-primary-dark : rgb(184, 155, 77);
@@ -25,14 +26,19 @@ $color-quaternary:rgb(106, 44, 112);
 $color-quaternary-light:rgb(128, 76, 133);
 $color-quaternary-dark:rgb(62, 26, 65);
 
-$color-grey-light-1: #f7f7f7;
-$color-grey-light-2: #eee;
 
+//Colors & enhanced colors
 $color-white: #fff;
+$color-white-shadow1:rgba($color-white,.15);
+$color-white-shadow2:rgba($color-white,.25);
+$color-white-shadow3:rgba($color-white,.5);
 $color-black: #000;
 $color-black-shadow1:rgba($color-black, .15);
 $color-black-shadow2:rgba($color-black, .25);
+$color-black-shadow3:rgba($color-black, .5);
 $color-grey: #777;
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
 
 
 //////////////////////////
