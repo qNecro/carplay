@@ -67,10 +67,14 @@
         display: inline-block;
         position:absolute;
         left:0;
-        top:-.1rem;
+        top:0;
 
         &::after{
-
+            content:'';
+            display: block;
+            height:1rem;
+            width: 1rem;
+            border-radius: 50%;
         }
     }
 }
