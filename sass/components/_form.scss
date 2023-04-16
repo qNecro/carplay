@@ -23,7 +23,7 @@
         }
 
         &:focus:invalid{
-            border-bottom: 3px solid $color-;
+            border-bottom: 3px solid $color-invalid;
         }
 
         &::-webkit-input-placeholder{

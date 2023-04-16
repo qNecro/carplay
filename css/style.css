@@ -347,6 +347,8 @@ body {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     border-bottom: 3px solid #f9d369; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid #ff5e00; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
