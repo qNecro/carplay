@@ -53,9 +53,6 @@
 
     }
 
-    &__radio-input{
-        // visibility: hidden;
-    }
 
     &__radio-label{
         font-size: 1.3rem;
@@ -87,5 +84,10 @@
             background-color: $color-primary;
             opacity:0 ;
         }
+
+    }
+
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        opacity: 1;
     }
 }
