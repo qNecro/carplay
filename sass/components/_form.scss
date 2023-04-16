@@ -50,6 +50,11 @@
     &__radio-group{
         width: 33%;
         display: inline-block;
+
+    }
+
+    &__radio-input{
+        // visibility: hidden;
     }
 
     &__radio-label{
