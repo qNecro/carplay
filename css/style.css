@@ -367,7 +367,7 @@ body {
   transform: translateY(-4rem); }
 
 .form__radio-group {
-  width: 10%;
+  width: 20%;
   display: inline-block; }
 
 .form__radio-label {
