@@ -367,18 +367,18 @@ body {
   transform: translateY(-4rem); }
 
 .form__radio-group {
-  width: 40%;
+  width: 33%;
   display: inline-block; }
 
 .form__radio-label {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   cursor: pointer;
   position: relative;
-  padding-left: 5rem; }
+  padding-left: 3rem; }
 
 .form__radio-button {
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   border: 5px solid #f9d369;
   border-radius: 50%;
   display: inline-block;
