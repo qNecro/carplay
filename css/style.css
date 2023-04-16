@@ -374,6 +374,13 @@ body {
   font-size: 1.6rem;
   cursor: pointer; }
 
+.form__radio-button {
+  height: 3rem;
+  width: 3rem;
+  border: 5px solid #f9d369;
+  border-radius: 50%;
+  display: block; }
+
 .story {
   width: 75%;
   margin: 0 auto;
