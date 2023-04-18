@@ -469,7 +469,7 @@ body {
     list-style: none; }
   .footer__item {
     display: inline-block; }
-    .footer__item:not(last-child) {
+    .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
     background-color: #6a2c70;
