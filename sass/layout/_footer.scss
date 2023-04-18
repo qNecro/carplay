@@ -2,7 +2,6 @@
     background-color:$color-quaternary;
     padding:10rem 0;
     font-size: 1.4rem;
-    color: $color-tertiary;
 
     &__logo-box{
         text-align: center;
@@ -40,6 +39,7 @@
             text-decoration: none;
             display: inline-block;
             transition: all .2s;
+            color: $color-tertiary;
         }
 
         &:hover,
@@ -52,6 +52,7 @@
 
     &__copyright{
         text-align: center;
+        color: $color-tertiary;
         border-top: 1px solid $color-tertiary-light;
         padding-top:2rem;
         width: 80%;
