@@ -2,6 +2,7 @@
     background-color:$color-quaternary;
     padding:10rem 0;
     font-size: 1.4rem;
+    color: $color-tertiary;
 
     &__logo-box{
         text-align: center;
@@ -14,7 +15,7 @@
     }
 
     &__navigation{
-        border-top: 1px solid $color-grey-light-1;
+        border-top: 1px solid $color-tertiary-light;
         padding-top: 2rem;
         display: block;
     }
@@ -35,7 +36,6 @@
         &:link,
         &:visited{
             background-color:$color-quaternary;
-            color: $color-tertiary;
             text-transform: uppercase;
             text-decoration: none;
             display: inline-block;
@@ -48,5 +48,12 @@
             box-shadow: 0 1rem 2rem $color-black-shadow3;
             transform: rotate(5deg) scale(1.3);
         }
+    }
+
+    &__copyright{
+        border-top: 1px solid $color-tertiary-light;
+        padding-top:2rem;
+        width: 80%;
+        float: right;
     }
 }
