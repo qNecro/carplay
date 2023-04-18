@@ -14,7 +14,9 @@
     }
 
     &__navigation{
-
+        border-top: 1px solid $color-grey-light-1;
+        padding-top: 2rem;
+        display: block;
     }
 
     &__list{
@@ -32,16 +34,19 @@
     &__link{
         &:link,
         &:visited{
+            background-color:$color-quaternary;
             color: $color-tertiary;
             text-transform: uppercase;
             text-decoration: none;
             display: inline-block;
+            transition: all .2s;
         }
 
         &:hover,
         &:active{
             color:$color-primary;
             box-shadow: 0 1rem 2rem $color-black-shadow3;
+            transform: rotate(5deg) scale(1.3);
         }
     }
 }
