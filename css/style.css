@@ -570,6 +570,8 @@ body {
 
 .navigation__list {
   position: absolute;
+  list-style: none;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
