@@ -28,6 +28,8 @@
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
 
         z-index:10;
+
+        transform: scale(80);
     }
 
     &__nav{
