@@ -544,7 +544,8 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#f1d689, #b89b4d); }
+  background-image: radial-gradient(#f1d689, #b89b4d);
+  z-index: 1000; }
 
 .section-about {
   background-color: #f7f7f7;
