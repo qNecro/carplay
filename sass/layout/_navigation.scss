@@ -1,14 +1,32 @@
 .navigation {
 
-    .navigation__checkbox{
+    &__checkbox{
 
     }
 
-    .navigation__button{
-        
+    &__button{
+
     }
 
-    .navigation__background{
+    &__background{
+        height: 6em;
+        width: 6rem;
+        border-radius: 50%;
+    }
+
+    &__nav{
+
+    }
+
+    &__list{
+
+    }
+
+    &__item{
+
+    }
+
+    &__link{
 
     }
 }
