@@ -1,7 +1,7 @@
 .navigation {
 
     &__checkbox{
-
+        display: none;
     }
 
     &__button{
@@ -14,7 +14,7 @@
         top:6rem;
         right:6rem;
 
-        z-index:1001;
+        z-index:12;
     }
 
     &__background{
@@ -27,11 +27,18 @@
         right: 6.5rem;
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
 
-        z-index:1000;
+        z-index:10;
     }
 
     &__nav{
+        height: 100vh;
+        width: 100%;
 
+        position: fixed;
+        top:0;
+        right:0;
+
+        z-index: 11;
     }
 
     &__list{
