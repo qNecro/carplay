@@ -73,6 +73,7 @@
         }
         &:hover,
         &:active{
+            transform: translateX(1rem);
             color:$color-primary;
             background-position: 100%;
         }
