@@ -134,7 +134,9 @@
         &::after{
             top:.8rem;
         }
-        &:hover,
-        &:active
+        
+        &__button:hover &__icon::before{
+            
+        }
     }
 }
