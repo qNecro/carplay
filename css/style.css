@@ -630,10 +630,23 @@ body {
     top: -.8rem; }
   .navigation__icon::after {
     top: .8rem; }
-  .navigation__icon__button:hover .navigation__icon__icon::before {
-    top: -1rem; }
-  .navigation__icon__button:hover .navigation__icon__icon::after {
-    top: 1rem; }
+
+.navigation__button:hover .navigation__icon::before {
+  top: -1rem; }
+
+.navigation__button:hover .navigation__icon::after {
+  top: 1rem; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  transform: rotate(45deg);
+  top: 0; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  transform: rotate(-45deg);
+  top: 0; }
 
 .section-about {
   background-color: #f7f7f7;
