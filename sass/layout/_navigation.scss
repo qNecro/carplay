@@ -7,10 +7,15 @@
     &__button{
         background-color: $color-white;
         box-shadow: 0 1rem 3rem $color-black-shadow1;
+        border-radius: 50%;
+
+        cursor: pointer;
+        
         height: 7rem;
         width: 7rem;
-        border-radius: 50%;
+        
         position:fixed;
+        
         text-align: center;
 
         top:6rem;
@@ -124,10 +129,12 @@
         }
 
         &::before{
-            top:-1rem;
+            top:-.8rem;
         }
         &::after{
-            top:1rem;
+            top:.8rem;
         }
+        &:hover,
+        &:active
     }
 }

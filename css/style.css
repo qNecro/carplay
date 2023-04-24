@@ -625,9 +625,9 @@ body {
     position: absolute;
     left: 0; }
   .navigation__icon::before {
-    top: -1rem; }
+    top: -.8rem; }
   .navigation__icon::after {
-    top: 1rem; }
+    top: .8rem; }
 
 .section-about {
   background-color: #f7f7f7;
