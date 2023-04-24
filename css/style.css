@@ -624,11 +624,16 @@ body {
   .navigation__icon::before, .navigation__icon::after {
     content: "";
     position: absolute;
-    left: 0; }
+    left: 0;
+    transition: all .2s; }
   .navigation__icon::before {
     top: -.8rem; }
   .navigation__icon::after {
     top: .8rem; }
+  .navigation__icon__button:hover .navigation__icon__icon::before {
+    top: -1rem; }
+  .navigation__icon__button:hover .navigation__icon__icon::after {
+    top: 1rem; }
 
 .section-about {
   background-color: #f7f7f7;
