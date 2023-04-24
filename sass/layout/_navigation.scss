@@ -11,6 +11,7 @@
         width: 7rem;
         border-radius: 50%;
         position:fixed;
+        text-align: center;
 
         top:6rem;
         right:6rem;
@@ -103,6 +104,8 @@
     }
 
     &__icon{
+        position: relative;
+        margin-top: 3.5rem;
         &,
         &::before,
         &::after{
@@ -116,6 +119,15 @@
         &::before,
         &::after{
             content:"";
+            position: absolute;
+            left:0;
+        }
+
+        &::before{
+            top:-1rem;
+        }
+        &::after{
+            top:1rem;
         }
     }
 }
