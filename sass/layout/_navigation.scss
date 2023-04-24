@@ -6,6 +6,7 @@
 
     &__button{
         background-color: $color-white;
+        box-shadow: 0 1rem 3rem $color-black-shadow1;
         height: 7rem;
         width: 7rem;
         border-radius: 50%;
@@ -15,6 +16,7 @@
         right:6rem;
 
         z-index:52;
+
     }
 
     &__background{
@@ -29,7 +31,7 @@
 
         z-index:50;
 
-        transform: scale(80);
+        // transform: scale(80);
     }
 
     &__nav{
