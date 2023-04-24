@@ -576,10 +576,10 @@ body {
   position: absolute;
   list-style: none;
   text-align: center;
-  width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  width: 100%; }
 
 .navigation__item {
   margin: 1rem; }
