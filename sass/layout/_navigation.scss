@@ -108,7 +108,14 @@
         &::after{
             width: 3rem;
             height: 2px;
-            background-color: ;
+            background-color: $color-grey;
+            display: inline-block;
+
+        }
+
+        &::before,
+        &::after{
+            content:"";
         }
     }
 }
