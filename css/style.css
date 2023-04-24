@@ -622,7 +622,7 @@ body {
     background-color: #777;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
-    content: "";
+    content: " ";
     position: absolute;
     left: 0;
     transition: all .2s; }
@@ -641,11 +641,11 @@ body {
   background-color: transparent; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
-  transform: rotate(45deg);
+  transform: rotate(135deg);
   top: 0; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
-  transform: rotate(-45deg);
+  transform: rotate(-1355deg);
   top: 0; }
 
 .section-about {
