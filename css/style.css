@@ -45,24 +45,19 @@
 html {
   font-size: 62.5%;
 }
-@media (max-width: phone) {
+@media (max-width: tablet-portrait) {
   html {
     font-size: 50%;
   }
 }
-@media (max-width: tablet-portrait) {
-  html {
-    font-size: 60%;
-  }
-}
 @media (max-width: tablet-landscape) {
   html {
-    font-size: 70%;
+    font-size: 56.25%;
   }
 }
 @media (min-width: big-desktop) {
   html {
-    font-size: 80%;
+    font-size: 75%;
   }
 }
 
