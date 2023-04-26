@@ -13,6 +13,11 @@
 }
 
 //Media queries
+
+$phone: 37.5em;                 //600px;
+$tablet-portrait:56.25em;       //900px;
+$tablet-landscape:75em;         //1200px;
+$big-desktop:112.5em;           //1800px;
 @function base-font-size($pixels) {
     @return percentage(calc($pixels / 16px));
 }
