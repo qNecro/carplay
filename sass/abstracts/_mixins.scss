@@ -19,6 +19,9 @@
     };
 }
 
-@mixin respond($breakpoint){
-
+@mixin respondMax($breakpoint){
+    @media (max-width: calc(calc($breakpoint / 16px) * 1em)){@content};
+}
+@mixin respondMin($breakpoint){
+    @media (min-width: calc(calc($breakpoint / 16px) * 1em)){@content};
 }
