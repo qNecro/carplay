@@ -11,16 +11,16 @@ html {
   font-size: 62.5%;
 
   @include respondMax(phone){
-    font-size: 50%;
+    font-size: base-font-size(50%);
   }
   @include respondMax(tablet-portrait){
-    font-size: 60%;
+    font-size: base-font-size(60%);
   }
   @include respondMax(tablet-landscape){
-    font-size: 70%;
+    font-size: base-font-size(70%);
   }
   @include respondMax(big-desktop){
-    font-size: 80%;
+    font-size: base-font-size(80%);
   }
 }
 
