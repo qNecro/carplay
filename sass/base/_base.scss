@@ -19,7 +19,7 @@ html {
   @include respondMax(tablet-landscape){
     font-size: 70%;
   }
-  @include respondMax(big-desktop){
+  @include respondMin(big-desktop){
     font-size: 80%;
   }
 }
