@@ -45,24 +45,24 @@
 html {
   font-size: 62.5%;
 }
-@media (max-width: calc(phone / 16px * 1em)) {
-  html {
-    font-size: 37.5%;
-  }
-}
-@media (max-width: calc(tablet-portrait / 16px * 1em)) {
+@media (max-width: phone) {
   html {
     font-size: 50%;
   }
 }
-@media (max-width: calc(tablet-landscape / 16px * 1em)) {
+@media (max-width: tablet-portrait) {
   html {
-    font-size: 56.25%;
+    font-size: 60%;
   }
 }
-@media (max-width: calc(big-desktop / 16px * 1em)) {
+@media (max-width: tablet-landscape) {
   html {
-    font-size: 75%;
+    font-size: 70%;
+  }
+}
+@media (max-width: big-desktop) {
+  html {
+    font-size: 80%;
   }
 }
 
