@@ -9,6 +9,9 @@
             margin-bottom: $gutter-vertical-small;
         }
     }
+    @include respondMax($tablet-portrait){
+        max-width: 50rem;
+    }
     @include clearfix;
 
     [class^="col-"] {
