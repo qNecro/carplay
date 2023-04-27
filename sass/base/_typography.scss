@@ -25,7 +25,7 @@ body {
     
       animation: moveInLeft 1s ease-out;
 
-      @include respond(phone){
+      @include respondMax(phone){
         letter-spacing: 1rem;
         font-size: 5rem;
       }
@@ -38,7 +38,7 @@ body {
       letter-spacing: 1.74rem;
     
       animation: moveInRight 1s ease-out;
-      @include respond(phone){
+      @include respondMax(phone){
         letter-spacing: .5rem;
       }
     }
