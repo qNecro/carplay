@@ -4,14 +4,25 @@
 
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
+
+        @include respondMax($tablet-portrait){
+            margin-bottom: $gutter-vertical-small;
+        }
     }
-    
     @include clearfix;
 
     [class^="col-"] {
         float:left;
             &:not(:last-child){
                 margin-right: $gutter-horizontal;
+
+                @include respondMax($tablet-portrait){
+                    margin-right: 0;
+                    margin-bottom:$gutter-vertical-small;
+                }
+            }
+            @include respondMax($tablet-portrait){
+                width: 100% !important;
             }
     }
 
