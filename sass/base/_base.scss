@@ -9,16 +9,18 @@
 html {
   //This defines what 1rem is
   font-size: 62.5%; //1rem = 10px
+  @include respondMin($big-desktop){
+    font-size: 75%; //1rem =12, 12/16
+  }
+
+  @include respondMax($tablet-landscape){
+    font-size: 56.25%; //1rem = 9px, 9/16 =56.25%
+  }
 
   @include respondMax($tablet-portrait){
     font-size: 50%; //1rem = 8px, 8/16 =50%
   }
-  @include respondMax($tablet-landscape){
-    font-size: 56.25%; //1rem = 9px, 9/16 =56.25%
-  }
-  @include respondMin($big-desktop){
-    font-size: 75%; //1rem =12, 12/16
-  }
+  
 }
 
 body {
