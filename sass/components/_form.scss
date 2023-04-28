@@ -50,8 +50,10 @@
     &__radio-group{
         width: 33%;
         display: inline-block;
+
         @include respondMax($tablet-portrait){
-            width: 30%;
+            width: 100%;
+            margin-bottom: 2rem;
         }
     }
 
