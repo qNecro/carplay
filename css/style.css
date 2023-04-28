@@ -494,8 +494,20 @@ body {
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
 }
+@media (max-width: 56.25em) {
+  .composition__photo:hover {
+    transform: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
+}
+@media (max-width: 56.25em) {
+  .composition:hover .composition__photo:not(:hover) {
+    transform: none;
+  }
 }
 
 .feature-box {

@@ -50,10 +50,19 @@
             transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 2.5rem 4rem $color-black-shadow3;
             z-index: 20;
+
+            @include respondMax($tablet-portrait){
+                transform: none;
+                box-shadow: none;
+                outline: none;
+            }
         }
 
     }
     &:hover &__photo:not(:hover){
         transform: scale(.95);
+        @include respondMax($tablet-portrait){
+            transform: none;
+        }
     }
 }   
