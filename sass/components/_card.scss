@@ -157,12 +157,15 @@
     //media q
     @include respondMax($tablet-portrait){
         height: auto;
+        border-radius: 3px;
+        background-color: $color-white;
+        box-shadow: 0 1.5rem 4rem $color-black-shadow1;
     
         //card shape and design
         &__side{
             height: auto;
             position:relative;
-            border-radius: 3px;
+            box-shadow: none;
     
             //card back side
             &--back{
@@ -184,7 +187,7 @@
             top:0;
             left:0;
             transform: translate(0);
-            padding: 4rem;
+            padding: 7rem 4rem 4rem 4rem;
         }
     
         &__price-box{
