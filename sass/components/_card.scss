@@ -156,45 +156,17 @@
 
     //media q
     @include respondMax($tablet-portrait){
-        height: 53rem;
+        height: auto;
     
         //card shape and design
         &__side{
-            height: 53rem;
-            transition: all .8s ease;
-    
-            position:absolute;
-            top:0;
-            left:0;
-            width: 100%;
-    
-            backface-visibility: hidden;
+            height: auto;
+            position:relative;
             border-radius: 3px;
-            overflow: hidden;
-            box-shadow: 0 1.5rem 4rem $color-black-shadow1;
     
-            //card front side
-            &--front{
-                background-color: $color-white;
-            }
             //card back side
             &--back{
-                transform: rotateY(180deg);
-                &-1{
-                    background-image: linear-gradient(
-                    to right bottom,
-                    $color-secondary-light,$color-secondary-dark);
-                }
-                &-2{
-                    background-image: linear-gradient(
-                    to right bottom,
-                    $color-tertiary-light,$color-tertiary-dark);
-                }
-                &-3{
-                    background-image: linear-gradient(
-                    to right bottom,
-                    $color-quaternary-light,$color-quaternary-dark);
-                }
+                transform: rotateY(0);
             }
         }
     

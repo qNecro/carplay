@@ -399,34 +399,15 @@ body {
 }
 @media (max-width: 56.25em) {
   .card {
-    height: 53rem;
+    height: auto;
   }
   .card__side {
-    height: 53rem;
-    transition: all 0.8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    backface-visibility: hidden;
+    height: auto;
+    position: relative;
     border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  }
-  .card__side--front {
-    background-color: #fff;
   }
   .card__side--back {
-    transform: rotateY(180deg);
-  }
-  .card__side--back-1 {
-    background-image: linear-gradient(to right bottom, rgb(237, 157, 123), rgb(173, 100, 69));
-  }
-  .card__side--back-2 {
-    background-image: linear-gradient(to right bottom, rgb(181, 90, 116), rgb(127, 39, 64));
-  }
-  .card__side--back-3 {
-    background-image: linear-gradient(to right bottom, rgb(128, 76, 133), rgb(62, 26, 65));
+    transform: rotateY(0);
   }
   .card:hover .card__side--front {
     transform: rotateY(-180deg);
