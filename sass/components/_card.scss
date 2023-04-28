@@ -174,11 +174,12 @@
             }
         }
     
-        
-    
-        //rotating card
         &:hover &__side--front{
             transform: rotateY(0);
+        }
+
+        &__details{
+            padding: 1rem 3rem;
         }
     
         //BACK SIDE STYLING
@@ -196,10 +197,10 @@
 
     
         &__price-box-value{
-            font-weight: 100;
+            font-size: 4rem;
         }
         &__price-box-fee{
-            font-size: 1rem;
+            font-size: 1.3rem;
         }
     
     }
