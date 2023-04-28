@@ -496,9 +496,9 @@ body {
 }
 @media (max-width: 56.25em) {
   .composition__photo:hover {
+    outline: none;
     transform: none;
     box-shadow: none;
-    outline: none;
   }
 }
 .composition:hover .composition__photo:not(:hover) {

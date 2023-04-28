@@ -52,9 +52,9 @@
             z-index: 20;
 
             @include respondMax($tablet-portrait){
+                outline:none;
                 transform: none;
                 box-shadow: none;
-                outline: none;
             }
         }
 
