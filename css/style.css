@@ -421,13 +421,29 @@ body {
   left: 0;
   top: -2rem;
 }
+@media (max-width: 56.25em) {
+  .composition__photo--photo1 {
+    top: 0;
+  }
+}
 .composition__photo--photo2 {
   right: 0;
   top: 2rem;
 }
+@media (max-width: 56.25em) {
+  .composition__photo--photo2 {
+    top: 0;
+  }
+}
 .composition__photo--photo3 {
   left: 20%;
   top: 10rem;
+}
+@media (max-width: 56.25em) {
+  .composition__photo--photo3 {
+    top: 0;
+    left: 0;
+  }
 }
 .composition__photo:hover {
   outline: 1.5rem solid rgb(249, 211, 105);
