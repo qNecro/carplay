@@ -11,6 +11,12 @@
 
     @include respondMax($tablet-portrait){
         width: 100%;
+        padding:4rem;
+        padding-left: 7rem;
+    }
+
+    @include respondMax($phone){
+        transform: skewX(0);
     }
 
     
@@ -23,6 +29,10 @@
         clip-path: circle(50% at 50% 50%);
         transform:translateX(-3rem) skewX(12deg);
         position: relative;
+
+        @include respondMax($phone){
+            transform: translateX(-3rem) skewX(0);
+    }
     }
 
     &__img{
@@ -34,6 +44,9 @@
 
     &__text{
         transform: skewX(12deg);
+        @include respondMax($phone){
+        transform: skewX(0);
+        }
     }
     &__caption{
         position: absolute;
