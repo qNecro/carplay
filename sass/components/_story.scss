@@ -9,6 +9,10 @@
     transform: skewX(-12deg);
     backface-visibility: hidden;
 
+    @include respondMax($tablet-portrait){
+        width: 100%;
+    }
+
     
 
     &__shape{
