@@ -17,6 +17,10 @@
         display: block;
         transition: all .3s;
 
+        @include respondMax($tablet-portrait){
+            width: 100%;
+        }
+
         &:focus{
             outline: none;
             box-shadow: 0 1rem 2rem $color-black-shadow1;
