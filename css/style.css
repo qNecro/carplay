@@ -585,6 +585,11 @@ body {
   width: 33%;
   display: inline-block;
 }
+@media (max-width: 56.25em) {
+  .form__radio-group {
+    width: 30%;
+  }
+}
 .form__radio-input {
   display: none;
 }
