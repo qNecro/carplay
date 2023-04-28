@@ -64,8 +64,15 @@
         background-image: linear-gradient(
         105deg, 
         rgba($color-white, .9) 0%,
-        rgba($color-white,.9) 70%, 
-        transparent 70%),
+        rgba($color-white,.9) 65%, 
+        transparent 65%),
+        url("../img/nat-10.jpg");
+    }
+    @include respondMax($tablet-portrait){
+        background-image: linear-gradient(
+        to right, 
+        rgba($color-white, .9) 0%,
+        rgba($color-white,.9) 100%),
         url("../img/nat-10.jpg");
     }
 
@@ -73,8 +80,10 @@
         width: 50%;
         padding:6rem;
         @include respondMax($tablet-landscape){
-            width: 70%;
+            width: 65%;
         }
-        
+        @include respondMax($tablet-portrait){
+            width: 100%;
+        }
     }
 }
