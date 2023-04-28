@@ -24,21 +24,25 @@
 
             @include respondMax($tablet-portrait){
                 top:0;
+                transform: scale(1.2);
             }
 
         }
         &--photo2{right: 0;
            top:2rem;
            @include respondMax($tablet-portrait){
-               top:0;
+               top:-1rem;
+               transform: scale(1.3);
+               z-index: 15;
            }
         }
         &--photo3{
             left:20%; 
             top:10rem;
             @include respondMax($tablet-portrait){
-                top:0;
+                top:1rem;
                 left:0;
+                transform: scale(1.1);
             }
         }
         &:hover{
