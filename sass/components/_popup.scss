@@ -30,14 +30,16 @@
         opacity: 0;
         transform: translate(-50%,-50%) scale(.2);
         transition: all .4s .2s;
+        @include respondMax($tablet-portrait){
+            display: block;   
+        }
     }
 
     &__left{
         width: 33.333333333333%;
         display: table-cell;
         @include respondMax($tablet-portrait){
-            display: inline-block;
-            width: 100%;
+            
         }
     }
 
