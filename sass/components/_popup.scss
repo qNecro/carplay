@@ -36,7 +36,8 @@
         width: 33.333333333333%;
         display: table-cell;
         @include respondMax($tablet-portrait){
-            width: 50%;
+            width: 100%;
+
         }
     }
 
@@ -46,6 +47,11 @@
         vertical-align: middle;
 
         padding: 3rem 5rem;
+        @include respondMax($tablet-portrait){
+            width: 100%;
+            display: block;
+        }
+    
     }
 
     &__img{
