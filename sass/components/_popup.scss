@@ -35,7 +35,10 @@
     &__left{
         width: 33.333333333333%;
         display: table-cell;
-        
+        @include respondMax($tablet-portrait){
+            display:flex;
+            width: 100%;
+        }
     }
 
     &__right{
@@ -44,7 +47,11 @@
         vertical-align: middle;
 
         padding: 3rem 5rem;
-    
+        @include respondMax($tablet-portrait){
+         display: block;   
+         width: 100%;
+         text-align: center;
+        }
     }
 
     &__img{
