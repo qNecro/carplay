@@ -30,19 +30,12 @@
         opacity: 0;
         transform: translate(-50%,-50%) scale(.2);
         transition: all .4s .2s;
-        @include respondMax($tablet-portrait){
-         display:block   ;
-        }
     }
 
     &__left{
         width: 33.333333333333%;
         display: table-cell;
-        @include respondMax($tablet-portrait){
-            position: absolute;
-            float: left;
-            display: block;
-        }
+        
     }
 
     &__right{
@@ -51,8 +44,6 @@
         vertical-align: middle;
 
         padding: 3rem 5rem;
-        @include respondMax($tablet-portrait){
-        }
     
     }
 
