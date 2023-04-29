@@ -669,6 +669,13 @@ body {
   width: 33.3333333333%;
   display: table-cell;
 }
+@media (max-width: 56.25em) {
+  .popup__left {
+    position: absolute;
+    float: left;
+    display: block;
+  }
+}
 .popup__right {
   width: 66.6666666667%;
   display: table-cell;
