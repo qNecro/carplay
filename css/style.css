@@ -664,7 +664,7 @@ body {
   width: 33.3333333333%;
   display: table-cell;
 }
-@media (max-width: 56.25em) {
+@media (max-width: 75em) {
   .popup__left {
     display: flex;
     width: 100%;
@@ -676,7 +676,7 @@ body {
   vertical-align: middle;
   padding: 3rem 5rem;
 }
-@media (max-width: 56.25em) {
+@media (max-width: 75em) {
   .popup__right {
     display: block;
     width: 100%;
@@ -1098,7 +1098,7 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
+  padding: 30rem 0;
   margin-top: -20vh;
 }
 
