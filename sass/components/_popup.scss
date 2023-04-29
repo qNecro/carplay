@@ -36,8 +36,8 @@
         width: 33.333333333333%;
         display: table-cell;
         @include respondMax($tablet-portrait){
+            display: inline-block;
             width: 100%;
-
         }
     }
 
@@ -48,8 +48,6 @@
 
         padding: 3rem 5rem;
         @include respondMax($tablet-portrait){
-            width: 100%;
-            display: block;
         }
     
     }

@@ -666,6 +666,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .popup__left {
+    display: inline-block;
     width: 100%;
   }
 }
@@ -674,12 +675,6 @@ body {
   display: table-cell;
   vertical-align: middle;
   padding: 3rem 5rem;
-}
-@media (max-width: 56.25em) {
-  .popup__right {
-    width: 100%;
-    display: block;
-  }
 }
 .popup__img {
   display: block;
