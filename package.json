@@ -6,11 +6,13 @@
   "scripts": {
     "watch:sass": "sass sass/main.scss css/style.css -w",
     "compile:sass": "sass sass/main.scss css/style.comp.css",
-    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css"
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
+    "prefix:css": ""
   },
   "author": "necro",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "concat": "^1.0.3",
     "node-sass": "^8.0.0"
   }
